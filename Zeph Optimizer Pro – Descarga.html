@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zeph Optimizer Pro – Descarga</title>
+<style>
+:root{--bg:#f6f4fb;--card:#fff;--text:#1b1630;--muted:#6b6585;--accent:#7c3aed;--red:#e11d48;--line:#e5e0f2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f0c1a;--card:#1a1530;--text:#f2effb;--muted:#a49dc0;--accent:#a78bfa;--line:#2e2750}}
+:root[data-theme="dark"]{--bg:#0f0c1a;--card:#1a1530;--text:#f2effb;--muted:#a49dc0;--accent:#a78bfa;--line:#2e2750}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;min-height:100vh;display:grid;place-items:center;padding:24px 16px}
+main{width:100%;max-width:460px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:32px 24px;text-align:center}
+h1{font-size:1.7rem;margin:0 0 6px}
+p{color:var(--muted);margin:0 0 20px;line-height:1.5}
+.step{border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:14px;text-align:left}
+.step b{display:block;margin-bottom:10px}
+.step.off{opacity:.45;pointer-events:none}
+.btn{display:block;width:100%;padding:13px 16px;border-radius:12px;border:0;font-size:1rem;font-weight:600;cursor:pointer;text-align:center;text-decoration:none;color:#fff}
+.yt{background:var(--red)}
+.dl{background:var(--accent)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+small{display:block;color:var(--muted);margin-top:10px;text-align:center}
+</style>
+</head>
+<body>
+<main>
+  <h1>⚡ Zeph Optimizer Pro</h1>
+  <p>Optimiza Windows desactivando servicios innecesarios, con respaldo para revertir cuando quieras.</p>
+
+  <div class="step" id="s1">
+    <b>Paso 1 · Suscríbete a ZephPlay</b>
+    <a class="btn yt" id="sub" href="https://www.youtube.com/@ZephPlay?sub_confirmation=1" target="_blank" rel="noopener">▶ Suscribirme en YouTube</a>
+  </div>
+
+  <div class="step off" id="s2">
+    <b>Paso 2 · Confirma</b>
+    <button class="btn dl" id="ok" disabled>Ya me suscribí</button>
+  </div>
+
+  <div class="step off" id="s3">
+    <b>Paso 3 · Descarga</b>
+    <button class="btn dl" id="get" disabled>⬇ Descargar ZephOptimizerPro.zip</button>
+    <small id="msg">Se desbloquea al confirmar tu suscripción.</small>
+  </div>
+</main>
+<script>
+var ZIP="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";
+var sub=document.getElementById("sub"),ok=document.getElementById("ok"),get=document.getElementById("get"),msg=document.getElementById("msg");
+var s2=document.getElementById("s2"),s3=document.getElementById("s3");
+sub.addEventListener("click",function(){
+  s2.classList.remove("off");
+  var n=8;ok.textContent="Espera "+n+"s…";
+  var t=setInterval(function(){n--;if(n<=0){clearInterval(t);ok.disabled=false;ok.textContent="Ya me suscribí";}else{ok.textContent="Espera "+n+"s…";}},1000);
+},{once:true});
+ok.addEventListener("click",function(){
+  s3.classList.remove("off");get.disabled=false;ok.disabled=true;ok.textContent="✓ Confirmado";
+  msg.textContent="¡Gracias por suscribirte!";
+});
+get.addEventListener("click",async function(){
+  try{
+    var d=await claude.use("downloads");
+    if(!d){msg.textContent="La descarga no está disponible en este visor.";return;}
+    var bin=atob(ZIP),u=new Uint8Array(bin.length);
+    for(var i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+    await d.save({filename:"ZephOptimizerPro.zip",data:new Blob([u],{type:"application/zip"})});
+  }catch(e){msg.textContent="No se pudo guardar el archivo. Inténtalo de nuevo.";}
+});
+</script>
+</body>
+</html>
